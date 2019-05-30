@@ -1,0 +1,14 @@
+package Exceptions;
+
+public class exceptions2 {
+	public static void tasc( String word) {
+		String b;
+		b=word.substring(1,200);
+		
+		
+	}
+	public static void main(String[] args) {
+		tasc("Hello");
+	}
+
+}

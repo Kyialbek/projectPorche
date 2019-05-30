@@ -1,0 +1,22 @@
+package Exceptions;
+
+public class exceptions1 {
+	public static void possibleExceptions(int number) {
+		int i = 100;
+		int result;
+		// try catch;
+		try {
+			result=i/number;
+		}catch(ArithmeticException ex) {
+			System.out.println("Hey stupid u cant divide by 0");
+			 
+		}
+//		int result = i/number;
+//		System.out.pint result = i/rintln("Result of our computation is "+result);
+	}
+	
+	public static void main(String[] args) {
+		possibleExceptions(0);
+	}
+
+}

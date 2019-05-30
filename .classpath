@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Abstraction/src"/>
+	<classpathentry kind="src" path="advanced.class/src/test/java"/>
+	<classpathentry kind="src" path="Automation-Ebay/src/test/java"/>
+	<classpathentry kind="src" path="MySecondJavaProject/src"/>
+	<classpathentry kind="src" path="Practice001/src/test/java"/>
+	<classpathentry kind="src" path="projectAboutMaven/src"/>
+	<classpathentry excluding="Abstraction/src/|MySecondJavaProject/src/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/Abstraction/src"/>
+	<classpathentry kind="src" path="src/MySecondJavaProject/src"/>
+	<classpathentry kind="output" path="Abstraction/bin"/>
+</classpath>

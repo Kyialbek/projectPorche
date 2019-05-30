@@ -1,0 +1,14 @@
+package Exceptions;
+
+public class exceptions1 {
+	public static void possibleExceptions(int number) {
+		int i = 100;
+		int result = i/number;
+		System.out.println("Result of our computation is "+result);
+	}
+	
+	public static void main(String[] args) {
+		possibleExceptions(12);
+	}
+
+}

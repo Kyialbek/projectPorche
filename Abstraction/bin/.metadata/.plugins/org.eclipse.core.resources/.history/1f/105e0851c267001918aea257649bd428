@@ -1,0 +1,21 @@
+package Exceptions;
+
+public class exceptions2 {
+	public static void tasc( String word) {
+		String b;
+		
+		
+		try {
+			b=word.substring(1,200);
+			
+		}catch(StringIndexOutOfBoundsException ex) {
+			System.out.println("Bro your string is out of bound");
+			
+		}
+		
+	}
+	public static void main(String[] args) {
+		tasc("Hello");
+	}
+
+}
